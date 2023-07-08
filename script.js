@@ -143,7 +143,7 @@ window.onload = function () {
     this.position = position;
     this.draw = function () {
       ctx.save();
-      ctx.fillStyle = "#33cc33";
+      ctx.fillStyle = "blue";
       ctx.beginPath();
       var radius = blockSize / 2;
       var x = this.position[0] * blockSize + radius;
